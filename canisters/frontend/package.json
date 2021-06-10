@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "snowpack dev --polyfill-node",
     "build": "snowpack build --polyfill-node"
   },
   "dependencies": {
