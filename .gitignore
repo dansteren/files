@@ -1,6 +1,25 @@
-target
-.dfx
-node_modules
+
+# Built Files
 dist
 build
-*.DS_Store
+
+# Internet Computer
+.dfx
+
+# Mac
+.DS_Store
+
+# Node
+node_modules
+
+# Rust
+target
+
+# Secrets
+*.env
+!example.local.env
+
+# VS Code
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json

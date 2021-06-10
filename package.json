@@ -1,6 +1,6 @@
 {
-    "scripts": {
-        "start": "cd canisters/frontend && npm run start",
-        "build": "cd canisters/playground && npm install && npm run build && cd ../frontend && npm install && npm run build"
-    }
+  "scripts": {
+    "start": "cd canisters/frontend && npm run start",
+    "build": "cd canisters/playground && npm install && npm run build && cd ../frontend && npm install && npm run build"
+  }
 }
